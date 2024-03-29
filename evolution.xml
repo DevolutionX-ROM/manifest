@@ -75,22 +75,11 @@
   <project path="art" name="art" remote="evo-2" />
   <project path="bionic" name="bionic" remote="evo-2" />
   <project path="bootable/recovery" name="bootable_recovery" remote="evo-2" />
-  <project path="build/make" name="build" remote="evo-2" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
   <project path="build/soong" name="build_soong" remote="evo-2" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <!--<project path="libcore" name="libcore" remote="evo" />-->
-  <project path="manifest" name="manifest" remote="evo-2" />
-
   <!-- Hardware repos -->
   <project path="hardware/evolution/interfaces" name="hardware_evolution_interfaces" remote="evo-2" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="evo-2" />
@@ -161,7 +150,6 @@
   <!-- Vendor repos -->
   <project path="vendor/bcr" name="vendor_bcr" remote="evo" />
   <project path="vendor/certification" name="vendor_certification" remote="evo-bb" />
-  <project path="vendor/evolution" name="vendor_evolution" remote="evo-2" />
   <project path="vendor/google/interfaces" name="TheParasiteProject/vendor_google_interfaces" revision="main" remote="github" />
   <project path="vendor/gms" name="vendor_gapps" groups="vendor" remote="evo-bb-2" clone-depth="1" />
   <!--<project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="evo" />-->
