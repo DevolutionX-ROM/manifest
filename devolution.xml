@@ -10,6 +10,7 @@
            fetch="https://github.com/DevolutionX-ROM"
            revision="refs/heads/uqpr2" />
 
+  <project path="packages/apps/Devolver" name="packages_apps_Devolver" remote="devo-2" />
   <project path="vendor/devolution" name="vendor_devolution" remote="devo-2" />
   <project path="manifest" name="manifest" remote="devo-2" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="devo-2" />

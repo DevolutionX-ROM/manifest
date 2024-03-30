@@ -91,7 +91,6 @@
 
   <!-- Packages (Apps) repos -->
   <project path="packages/apps/EvoEgg" name="packages_apps_EvoEgg" remote="evo" />
-  <project path="packages/apps/Evolver" name="packages_apps_Evolver" remote="evo-2" />
   <project path="packages/apps/GCamGOPrebuilt" name="packages_apps_GCamGOPrebuilt" remote="evo" />
   <!--<project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="evo" />-->
   <project path="packages/apps/Gramophone" name="TheParasiteProject/packages_apps_Gramophone" revision="14.0" remote="github" />
